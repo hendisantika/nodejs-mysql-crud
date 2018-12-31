@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-mysql-crud",
+  "version": "1.0.0",
+  "description": "NodeJS MySQL CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hendisantika/nodejs-mysql-crud.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "crud"
+  ],
+  "author": "Hendi Santika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hendisantika/nodejs-mysql-crud/issues"
+  },
+  "homepage": "https://github.com/hendisantika/nodejs-mysql-crud#readme"
+}
