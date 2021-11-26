@@ -13,7 +13,7 @@
   "keywords": [
     "nodejs",
     "express",
-    "mysql",
+    "mysql2",
     "crud"
   ],
   "author": "Hendi Santika",
@@ -27,6 +27,6 @@
     "express": "^4.16.4",
     "express-myconnection": "^1.0.4",
     "morgan": "^1.9.1",
-    "mysql": "^2.16.0"
+    "mysql2": "^2.3.3"
   }
 }
