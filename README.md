@@ -1,17 +1,20 @@
-# nodejs-mysql-crud
+### nodejs-mysql-crud
 
-Run this project by this command :
+##### Step 1: Install docker.
 
-1. `npm install`
-2. `nodemon src/index.js`
-3. `localhost:3000`
+##### Step 2: create a .env file in the project root with the passkeys for:
 
-#### Screen shot
+```
+DB_HOST=db
+DB_USER=app_user
+DB_PASSWORD=teste123
+DB_PORT=3306
+DB_NAME=nodejs2
+DB_ROOT_PASSWORD=teste123
+```
 
-Home Page
+**After this, run this command:**
 
-![Home Page](img/home.png "Home Page")
+"docker compose up -d"
 
-Add New Customer
-
-![Add New Customer](img/add.png "Add New Customer")
+Access: http://localhost:3000/
