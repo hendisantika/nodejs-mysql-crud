@@ -2,15 +2,15 @@
 
 ##### Step 1: Install docker.
 
-##### Step 2: create a .env file in the project root with the passkeys for:
+##### Step 2: create a .env file in the project root with your passkeys for:
 
 ```
-DB_HOST=db
-DB_USER=app_user
-DB_PASSWORD=teste123
-DB_PORT=3306
-DB_NAME=nodejs2
-DB_ROOT_PASSWORD=teste123
+DB_HOST=
+DB_USER=
+DB_PASSWORD=
+DB_PORT=
+DB_NAME=
+DB_ROOT_PASSWORD=
 ```
 
 **After this, run this command:**
@@ -18,3 +18,5 @@ DB_ROOT_PASSWORD=teste123
 "docker compose up -d"
 
 Access: http://localhost:3000/
+
+Projeto desenvolvido para resolução do desafio de Docker da Formação DevOps Rocketseat 🚀💜
